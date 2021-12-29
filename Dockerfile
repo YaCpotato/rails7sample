@@ -5,16 +5,15 @@ RUN apt-get install -y curl apt-transport-https wget
 RUN wget -qO - https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
 
-RUN apt-get update -qq && apt-get install -y nodejs yarn
+RUN apt-get update -qq && apt-get install -y nodejs yarn openssl postgresql-client
 RUN mkdir /myapp
 WORKDIR /myapp
 COPY Gemfile /myapp/Gemfile
 COPY Gemfile.lock /myapp/Gemfile.lock
-RUN bundle install
 COPY . /myapp
 
 RUN yarn install
-RUN bundle exec rails webpacker:compile
+RUN bundle install
 
 # Add a script to be executed every time the container starts.
 COPY entrypoint.sh /usr/bin/

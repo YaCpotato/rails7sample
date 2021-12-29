@@ -1,23 +1,35 @@
 version: '3'
 services:
-  db:
-    image: mysql:8.0
-    # for m1 mac
-    platform: linux/x86_64
-    environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: root
-    ports:
-      - "3306:3306"
-    volumes:
-      - ./tmp/db:/var/lib/mysql
-
   web:
     build: .
     command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
     volumes:
       - .:/myapp
     ports:
-      - "3000:3000"
+      - '3000:3000'
     depends_on:
       - db
+    environment:
+      REDIS_URL: redis://redis:6379
+    env_file:
+      - .env
+  db:
+    image: postgres:10
+    volumes:
+      - ./postgresql/data:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_DB=development
+      - POSTGRES_USER=development
+      - POSTGRES_PASSWORD=GdS)FP6*B7zJ
+      - POSTGRES_ROOT_PASSWORD=yQqDx.4(Cnue
+      - TZ=Asia/Tokyo
+  redis:
+    image: redis:latest
+    volumes:
+      - ./redis-data:/data
+    ports:
+      - '6379:6379'
+volumes:
+  db:
