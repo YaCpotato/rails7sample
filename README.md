@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Version
+|system|version|
+|:--:|:--:|
+|Ruby|2.7.0|
+|rails|7.0|
+## System dependencies
 
-Things you may want to cover:
+## Database setup
 
-* Ruby version
+```bash
+docker-compose exec web db:create
+docker-compose exec web db:migrate
+```
 
-* System dependencies
+## How to run the test suite
+```bash
+docker-compose exec web rspec
+```
 
-* Configuration
+## Services (job queues, cache servers, search engines, etc.)
 
-* Database creation
+## Deployment instructions
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## ...
