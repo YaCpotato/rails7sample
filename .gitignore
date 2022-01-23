@@ -31,5 +31,6 @@
 /config/master.key
 
 postgresql
+redis-data
 
 .env
