@@ -6,6 +6,9 @@ ruby "2.7.0"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.0"
 
+gem 'omniauth-google-oauth2'
+gem 'omniauth-rails_csrf_protection'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
@@ -68,9 +71,6 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem "capybara"
-  gem "selenium-webdriver"
-  gem "webdrivers"
   gem 'rspec-rails'
   gem "factory_bot_rails"
   gem 'faker'
