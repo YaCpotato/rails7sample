@@ -32,5 +32,6 @@
 
 postgresql
 redis-data
+node_modules
 
 .env
