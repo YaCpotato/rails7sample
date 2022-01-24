@@ -163,10 +163,8 @@ GEM
     omniauth-oauth2 (1.7.2)
       oauth2 (~> 1.4)
       omniauth (>= 1.9, < 3)
-    omniauth-rails_csrf_protection (1.0.0)
-      actionpack (>= 4.2)
-      omniauth (~> 2.0)
     pg (1.2.3)
+    popper_js (2.9.3)
     puma (5.5.2)
       nio4r (~> 2.0)
     racc (1.6.0)
@@ -269,8 +267,8 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   omniauth-google-oauth2
-  omniauth-rails_csrf_protection
   pg (~> 1.1)
+  popper_js (~> 2.9.3)
   puma (~> 5.0)
   rails (~> 7.0.0)
   rspec-rails
