@@ -7,7 +7,6 @@ ruby "2.7.0"
 gem "rails", "~> 7.0.0"
 
 gem 'omniauth-google-oauth2'
-gem 'omniauth-rails_csrf_protection'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
