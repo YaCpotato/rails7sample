@@ -8,6 +8,8 @@ gem "rails", "~> 7.0.0"
 
 gem 'omniauth-google-oauth2'
 
+gem 'slack-ruby-client'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
