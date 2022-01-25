@@ -1,29 +1,29 @@
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;height:15vh:">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-        </ul>
-        <li class="d-flex">
-          <% if logged_in? %>
-            <div class="dropdown">
-              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                <%= image_tag(current_user.image, size: "40x40") %>
-              </button>
-              <ul class="dropdown-menu">
-                <li class="dropdown-item"><%= link_to "ログアウト", logout_path %></li>
-              </ul>
-            </div>
-          <% else %>
-            <%= link_to("ログイン", "/auth/google_oauth2", {method: :post}) %>
-          <% end %>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary text-white" style="height:15vh:">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-      </div>
+      </ul>
+      <li class="d-flex">
+        <% if logged_in? %>
+          <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <%= image_tag(current_user.image, size: "40x40") %>
+            </button>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item"><%= link_to "ログアウト", logout_path %></li>
+            </ul>
+          </div>
+        <% else %>
+          <%= link_to("ログイン", "/auth/google_oauth2", {method: :post}) %>
+        <% end %>
+      </li>
     </div>
-  </nav>
+  </div>
+</nav>
