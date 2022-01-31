@@ -1,4 +1,8 @@
-class FaqController < ApplicationController  
+class FaqsController < ApplicationController
+  
+  def index
+  end
+
   def hello
     client = Slack::Web::Client.new
     client.chat_postMessage(
