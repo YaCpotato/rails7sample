@@ -15,6 +15,13 @@ ActiveRecord::Schema.define(version: 2022_01_31_042839) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "categories", force: :cascade do |t|
+    t.string "name"
+    t.integer "size"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "comments", force: :cascade do |t|
     t.text "text"
     t.bigint "user_id"
@@ -26,13 +33,16 @@ ActiveRecord::Schema.define(version: 2022_01_31_042839) do
   create_table "faqs", force: :cascade do |t|
     t.text "question_text"
     t.text "answer"
-    t.integer "large_category"
-    t.integer "medium_category"
-    t.integer "small_category"
+    t.bigint "large_category_id"
+    t.bigint "medium_category_id"
+    t.bigint "small_category_id"
     t.bigint "comment_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["comment_id"], name: "index_faqs_on_comment_id"
+    t.index ["large_category_id"], name: "index_faqs_on_large_category_id"
+    t.index ["medium_category_id"], name: "index_faqs_on_medium_category_id"
+    t.index ["small_category_id"], name: "index_faqs_on_small_category_id"
   end
 
   create_table "users", force: :cascade do |t|
