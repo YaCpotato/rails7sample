@@ -60,15 +60,6 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-    async (1.30.1)
-      console (~> 1.10)
-      nio4r (~> 2.3)
-      timers (~> 4.1)
-    async-io (1.32.2)
-      async
-    async-websocket (0.8.0)
-      async-io
-      websocket-driver (~> 0.7.0)
     autoprefixer-rails (10.4.2.0)
       execjs (~> 2)
     bindex (0.8.1)
@@ -79,8 +70,6 @@ GEM
       sassc (>= 2.0.0)
     builder (3.2.4)
     concurrent-ruby (1.1.9)
-    console (1.14.0)
-      fiber-local
     crass (1.0.6)
     debug (1.4.0)
       irb (>= 1.3.6)
@@ -125,7 +114,6 @@ GEM
     faraday_middleware (1.2.0)
       faraday (~> 1.0)
     ffi (1.15.5)
-    fiber-local (1.0.0)
     gli (2.20.1)
     globalid (1.0.0)
       activesupport (>= 5.0)
@@ -243,6 +231,9 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
+    seed-fu (2.3.9)
+      activerecord (>= 3.1)
+      activesupport (>= 3.1)
     slack-ruby-client (1.0.0)
       faraday (>= 1.0)
       faraday_middleware
@@ -260,7 +251,6 @@ GEM
       railties (>= 6.0.0)
     thor (1.1.0)
     tilt (2.0.10)
-    timers (4.3.3)
     turbo-rails (1.0.0)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
@@ -280,7 +270,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  async-websocket (~> 0.8.0)
   bootsnap
   bootstrap-sass
   debug
@@ -296,6 +285,7 @@ DEPENDENCIES
   rails (~> 7.0.0)
   rspec-rails
   sassc-rails
+  seed-fu
   slack-ruby-client
   sprockets-rails
   stimulus-rails
