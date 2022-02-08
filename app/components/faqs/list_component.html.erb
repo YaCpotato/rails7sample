@@ -1,0 +1,34 @@
+<div class="d-grid gap-3">
+  <% @faqs.each do |faq| %>
+    <div class="card bg-light border p-2">
+      <div class="card-body">
+        <div class="row">
+          <div class="col">
+            <p class="fs-2">Q.</p>
+            <p class="card-text lh-base three-line-content">
+              <%= faq.question_text %>
+            </p>
+          </div>
+          <div class="col">
+            <p class="fs-2">A.</p>
+            <p class="card-text lh-base three-line-content">
+              <%= faq.answer %>
+            </p>
+          </div>
+        </div>
+        <hr>
+        <a href="#" class="card-link">詳細</a>
+        <a href="#" class="card-link">編集</a>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+<style>
+.three-line-content {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>
