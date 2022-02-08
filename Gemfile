@@ -35,6 +35,7 @@ gem "jbuilder"
 
 gem 'seed-fu'
 gem 'faker'
+gem 'view_component'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
