@@ -24,25 +24,21 @@ ActiveRecord::Schema.define(version: 2022_01_31_042839) do
 
   create_table "comments", force: :cascade do |t|
     t.text "text"
-    t.bigint "user_id"
+    t.bigint "users_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["user_id"], name: "index_comments_on_user_id"
+    t.index ["users_id"], name: "index_comments_on_users_id"
   end
 
   create_table "faqs", force: :cascade do |t|
     t.text "question_text"
     t.text "answer"
-    t.bigint "large_category_id"
-    t.bigint "medium_category_id"
-    t.bigint "small_category_id"
-    t.bigint "comment_id"
+    t.bigint "categories_id"
+    t.bigint "comments_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["comment_id"], name: "index_faqs_on_comment_id"
-    t.index ["large_category_id"], name: "index_faqs_on_large_category_id"
-    t.index ["medium_category_id"], name: "index_faqs_on_medium_category_id"
-    t.index ["small_category_id"], name: "index_faqs_on_small_category_id"
+    t.index ["categories_id"], name: "index_faqs_on_categories_id"
+    t.index ["comments_id"], name: "index_faqs_on_comments_id"
   end
 
   create_table "users", force: :cascade do |t|
