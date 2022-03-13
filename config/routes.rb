@@ -5,8 +5,8 @@ Rails.application.routes.draw do
   get 'log_out', to: 'sessions#destroy', as: 'logout'
 
   get 'faq/hello', to: 'faqs#hello'
-  get 'faq/index', to: 'faqs#index'
-  get 'faq/:id/comments', to: 'comments#index'
+
+  get 'newspaper/index', to: 'newspapers#index'
 
   resources :sessions, only: %i[create destroy]
 end

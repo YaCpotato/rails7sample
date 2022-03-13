@@ -2,20 +2,10 @@
   <% @newspapers.each do |newspaper| %>
     <div class="card bg-light border p-2">
       <div class="card-body">
-        <div class="row">
-          <div class="col">
-            <p class="fs-2">Q.</p>
-            <p class="card-text lh-base three-line-content">
-              <%= newspaper.question_text %>
-            </p>
-          </div>
-          <div class="col">
-            <p class="fs-2">A.</p>
-            <p class="card-text lh-base three-line-content">
-              <%= newspaper.answer %>
-            </p>
-          </div>
-        </div>
+        <h3 class="title"><%= newspaper.title %></h3>
+        <p class="card-text lh-base three-line-content">
+          <%= newspaper.content %>
+        </p>
         <hr>
         <a href="#" class="card-link">詳細</a>
         <a href="#" class="card-link">編集</a>

@@ -1,2 +1,2 @@
-class Faq < ApplicationRecord
+class Newspaper < ApplicationRecord
 end
