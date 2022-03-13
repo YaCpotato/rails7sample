@@ -37,6 +37,8 @@ gem 'seed-fu'
 gem 'faker'
 gem 'view_component'
 
+gem 'rails-controller-testing'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -78,6 +80,7 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
+  gem 'capybara'
   gem 'rspec-rails'
   gem "factory_bot_rails"
   gem 'faker'
