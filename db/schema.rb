@@ -10,36 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_01_31_042839) do
+ActiveRecord::Schema.define(version: 2022_01_23_091930) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "categories", force: :cascade do |t|
-    t.string "name"
-    t.integer "size"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "comments", force: :cascade do |t|
-    t.text "text"
-    t.bigint "users_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["users_id"], name: "index_comments_on_users_id"
-  end
-
-  create_table "faqs", force: :cascade do |t|
-    t.text "question_text"
-    t.text "answer"
-    t.bigint "categories_id"
-    t.bigint "comments_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["categories_id"], name: "index_faqs_on_categories_id"
-    t.index ["comments_id"], name: "index_faqs_on_comments_id"
-  end
 
   create_table "users", force: :cascade do |t|
     t.string "name"
