@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   get 'newspaper/index', to: 'newspapers#index'
 
   resources :sessions, only: %i[create destroy]
+  resources :users
 end
