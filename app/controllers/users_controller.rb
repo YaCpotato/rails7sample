@@ -7,7 +7,7 @@ class UsersController < ApplicationController
 
   def update
     @user = User.find(params[:id])
-    if @user.update(user_params)
+    if @user.update_attribute(:slack_webhook_url, user_params[:slack_webhook_url])
       flash[:success] = "Profile updated"
       redirect_to root_path
     else

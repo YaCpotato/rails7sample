@@ -4,6 +4,7 @@
   <div class="span6 offset3">
   <p><%= @user.name %></p>
   <p><%= @user.email %></p>
+    <%= render 'shared/error_messages' %>
     <%= form_for(@user) do |f| %>
       <%= f.label :slack_webhook_url %>
       <%= f.text_field :slack_webhook_url %>
