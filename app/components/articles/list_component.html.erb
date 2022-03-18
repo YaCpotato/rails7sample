@@ -1,16 +1,16 @@
 <div class="d-grid gap-3">
-  <% @newspapers.each do |newspaper| %>
+  <% @articles.each do |article| %>
     <div class="card bg-light border p-2">
       <div class="card-header d-flex flex-row-reverse bd-highlight">
         <div class="p-2 bd-highlight">
         <i class="bi-cloud-lightning-fill"></i>
-        <%= link_to "速報", newspaper_extra_news_send_path(id: newspaper.id) %>
+        <%= link_to "速報", article_extra_news_send_path(id: article.id) %>
         </div>
       </div>
       <div class="card-body">
-        <h3 class="title"><%= newspaper.title %></h3>
+        <h3 class="title"><%= article.title %></h3>
         <p class="card-text lh-base three-line-content">
-          <%= newspaper.content %>
+          <%= article.content %>
         </p>
         <hr>
         <a href="#" class="card-link">詳細</a>

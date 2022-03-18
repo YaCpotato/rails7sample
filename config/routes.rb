@@ -6,8 +6,8 @@ Rails.application.routes.draw do
 
   get 'faq/hello', to: 'faqs#hello'
 
-  get 'newspaper/index', to: 'newspapers#index'
-  get 'newspaper/extra_news_send/:id', to: 'newspapers#extra_news_send', as: 'newspaper_extra_news_send'
+  get 'article/index', to: 'articles#index'
+  get 'article/extra_news_send/:id', to: 'articles#extra_news_send', as: 'article_extra_news_send'
 
   resources :sessions, only: %i[create destroy]
   resources :users
