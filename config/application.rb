@@ -26,5 +26,6 @@ module Myapp
             controller_specs: false, 
             routing_specs: false
     end
+    config.eager_load_paths << Rails.root.join("lib/utils")
   end
 end

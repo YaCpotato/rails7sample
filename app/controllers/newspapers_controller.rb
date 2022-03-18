@@ -1,17 +1,43 @@
 class NewspapersController < ApplicationController
   before_action :check_for_slack_webhook_url
+  before_action :fetch_newspaper, only: [:extra_news_send]
 
   def index
     @newspapers = Newspaper.all()
   end
 
-  def news_send
-    notifier = Slack::Notifier.new(
+  def extra_news_send
+    message = {
+      blocks: [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": @newspaper.title,
+          }
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": @newspaper.content
+          }
+        }
+      ]
+    }
+    SlackUtility.send(
       current_user.slack_webhook_url,
-      username: '社内新聞'
+      message
     )
-    notifier.ping '総天然色の青春グラフィティや一億総プチブルを私が許さないことくらいオセアニアじゃあ常識なんだよ'
-    
-    redirect_to root_path
+
+    redirect_to newspaper_index_path
   end
+
+  private
+
+    def fetch_newspaper
+      @newspaper = Newspaper.find(params[:id])
+    rescue => e
+      render status: :not_found, json: { error: e }
+    end
 end
