@@ -14,7 +14,7 @@
         </p>
         <hr>
         <a href="#" class="card-link">詳細</a>
-        <a href="#" class="card-link">編集</a>
+        <%= link_to "編集", edit_article_path(id: article.id) %>
       </div>
     </div>
   <% end %>
