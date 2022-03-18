@@ -252,6 +252,7 @@ GEM
     seed-fu (2.3.9)
       activerecord (>= 3.1)
       activesupport (>= 3.1)
+    slack-notifier (2.4.0)
     slack-ruby-client (1.0.0)
       faraday (>= 1.0)
       faraday_middleware
@@ -311,6 +312,7 @@ DEPENDENCIES
   rspec-rails
   sassc-rails
   seed-fu
+  slack-notifier
   slack-ruby-client
   sprockets-rails
   stimulus-rails

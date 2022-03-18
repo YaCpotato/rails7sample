@@ -19,6 +19,7 @@
             <ul class="dropdown-menu">
               <li class="dropdown-item"><%= link_to "ログアウト", logout_path %></li>
               <li class="dropdown-item"><%= link_to "設定", edit_user_path(current_user) %></li>
+              <li class="dropdown-item"><%= link_to "テスト送信", newspaper_send_path %></li>
             </ul>
           </div>
         <% else %>

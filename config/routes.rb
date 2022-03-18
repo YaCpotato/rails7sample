@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'faq/hello', to: 'faqs#hello'
 
   get 'newspaper/index', to: 'newspapers#index'
+  get 'newspaper/send', to: 'newspapers#news_send'
 
   resources :sessions, only: %i[create destroy]
   resources :users
