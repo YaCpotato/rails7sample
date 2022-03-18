@@ -2,9 +2,6 @@ class User < ApplicationRecord
   encrypts :slack_webhook_url
 
   SLACK_URL_REGEX = /(https:\/\/hooks.slack.com\/services)(.*)/
-  validates :email, length: { maximum: 100 },
-                    format: { with: SLACK_URL_REGEX },
-                    uniqueness: true, acceptance: { message: 'must be abided' }
   
   class << self
     def find_or_create_from_auth_hash(auth_hash)
