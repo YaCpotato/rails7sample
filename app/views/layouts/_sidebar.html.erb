@@ -1,12 +1,21 @@
 <div class="p-3 text-white bg-dark sticky-top"  style="height: 100vh;">
   <%= link_to("Navbar", root_path, { class: "nav-link navbar-brand text-white" }) %>
   <ul class="nav navbar-nav-scroll flex-column p-2">
-    <li class="nav-item m-1">
-      <%= link_to("新聞一覧", root_path, { class: "nav-link text-white" }) %>
-    </li>
-    <li class="nav-item m-1">
-      <%= link_to("記事一覧", article_index_path, { class: "nav-link text-white" }) %>
-    </li>
+    <nav class="nav nav-pills flex-column">
+      <%= link_to("掲載スケジュール", article_index_path, { class: "nav-link navbar-brand text-white" }) %>
+      <%= link_to("一覧", article_index_path, { class: "nav-link text-white ms-3 my-1" }) %>
+      <%= link_to("新規作成", root_path, { class: "nav-link text-white ms-3 my-1" }) %>
+    </nav>
+    <nav class="nav nav-pills flex-column">
+      <%= link_to("新聞管理", root_path, { class: "nav-link navbar-brand text-white" }) %>
+      <a class="nav-link text-white ms-3 my-1" href="#item-1-1">一覧</a>
+      <a class="nav-link text-white ms-3 my-1" href="#item-1-2">新規作成</a>
+    </nav>
+    <nav class="nav nav-pills flex-column">
+      <%= link_to("記事管理", article_index_path, { class: "nav-link navbar-brand text-white" }) %>
+      <%= link_to("一覧", article_index_path, { class: "nav-link text-white ms-3 my-1" }) %>
+      <%= link_to("新規作成", root_path, { class: "nav-link text-white ms-3 my-1" }) %>
+    </nav>
   </ul>
   <div class="fixed-bottom d-flex p-4">
     <% if logged_in? %>
