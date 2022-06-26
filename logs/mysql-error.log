@@ -1,0 +1,420 @@
+2022-06-26T14:31:32.429084+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T14:31:32.429325+09:00 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.29) initializing of server in progress as process 104
+2022-06-26T14:31:32.514003+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T14:31:32.536541+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T14:31:32.537386+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T14:31:34.496357+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T14:31:40.723396+09:00 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2022-06-26T14:31:55.099381+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T14:31:55.099635+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 159
+2022-06-26T14:31:55.429302+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T14:31:55.596178+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T14:31:55.597416+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T14:31:57.385921+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T14:31:59.392664+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-06-26T14:31:59.394503+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-06-26T14:31:59.399835+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-06-26T14:31:59.616936+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2022-06-26T14:31:59.621318+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.29'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2022-06-26T14:32:16.473475+09:00 11 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.29).
+2022-06-26T14:32:17.736920+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+2022-06-26T14:32:19.031051+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T14:32:19.031808+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 1
+2022-06-26T14:32:19.122977+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T14:32:19.149818+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T14:32:19.151272+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T14:32:19.384569+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T14:32:20.232101+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-06-26T14:32:20.233652+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-06-26T14:32:20.240236+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-06-26T14:32:20.369837+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.29'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2022-06-26T14:32:20.370151+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-06-26T14:35:30.802855+09:00 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.29).
+2022-06-26T14:35:31.589292+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+2022-06-26T14:35:37.442723+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T14:35:37.443607+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 1
+2022-06-26T14:35:37.547689+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T14:35:37.577062+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T14:35:37.577974+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T14:35:37.923046+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T14:35:39.144076+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-06-26T14:35:39.145541+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-06-26T14:35:39.152734+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-06-26T14:35:39.326607+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-06-26T14:35:39.328085+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.29'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2022-06-26T14:39:28.505544+09:00 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.29).
+2022-06-26T14:39:29.539785+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+2022-06-26T14:44:56.281386+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T14:44:56.282587+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 1
+2022-06-26T14:44:56.409146+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T14:44:56.446594+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T14:44:56.447515+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T14:44:56.796252+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T14:44:58.145452+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-06-26T14:44:58.146834+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-06-26T14:44:58.154029+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-06-26T14:44:58.370411+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-06-26T14:44:58.371065+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.29'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2022-06-26T14:47:44.366204+09:00 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.29).
+2022-06-26T14:47:44.730984+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+2022-06-26T14:47:51.806808+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T14:47:51.808139+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 1
+2022-06-26T14:47:51.940275+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T14:47:51.972817+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T14:47:51.973944+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T14:47:52.308354+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T14:47:53.354501+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-06-26T14:47:53.355641+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-06-26T14:47:53.361998+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-06-26T14:47:53.562437+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-06-26T14:47:53.565360+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.29'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2022-06-26T14:49:45.098285+09:00 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.29).
+2022-06-26T14:49:45.570197+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+2022-06-26T14:49:51.925723+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T14:49:51.926676+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 1
+2022-06-26T14:49:52.034162+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T14:49:52.065026+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T14:49:52.065707+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T14:49:52.386541+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T14:49:53.323599+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-06-26T14:49:53.325102+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-06-26T14:49:53.331758+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-06-26T14:49:53.497872+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-06-26T14:49:53.499315+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.29'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2022-06-26T14:52:25.644089+09:00 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.29).
+2022-06-26T14:52:26.640235+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+2022-06-26T14:52:37.923204+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T14:52:37.923828+09:00 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.29) initializing of server in progress as process 101
+2022-06-26T14:52:38.025114+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T14:52:38.049901+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T14:52:38.054156+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T14:52:38.690765+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T14:52:42.866880+09:00 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2022-06-26T14:52:55.563491+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T14:52:55.563713+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 156
+2022-06-26T14:52:55.684861+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T14:52:55.721105+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T14:52:55.722272+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T14:52:56.015451+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T14:52:57.073949+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-06-26T14:52:57.077777+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-06-26T14:52:57.083764+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-06-26T14:52:57.205009+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2022-06-26T14:52:57.206507+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.29'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2022-06-26T14:53:14.074213+09:00 13 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.29).
+2022-06-26T14:53:14.767723+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+2022-06-26T14:53:15.597429+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T14:53:15.598269+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 1
+2022-06-26T14:53:15.689507+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T14:53:15.715456+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T14:53:15.716543+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T14:53:15.957687+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T14:53:16.734546+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-06-26T14:53:16.736047+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-06-26T14:53:16.741352+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-06-26T14:53:16.859609+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-06-26T14:53:16.861038+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.29'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2022-06-26T15:00:05.249192+09:00 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.29).
+2022-06-26T15:00:05.691041+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+2022-06-26T15:00:36.711768+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T15:00:36.712746+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 1
+2022-06-26T15:00:36.803987+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T15:00:36.831266+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T15:00:36.832351+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T15:00:37.138560+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T15:00:37.939883+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-06-26T15:00:37.941390+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-06-26T15:00:37.946731+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-06-26T15:00:38.082483+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-06-26T15:00:38.083087+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.29'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2022-06-26T15:00:53.101538+09:00 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.29).
+2022-06-26T15:00:53.804671+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+2022-06-26T15:00:56.601107+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T15:00:56.602262+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 1
+2022-06-26T15:00:56.755962+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T15:00:56.789511+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T15:00:56.790381+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T15:00:56.749927+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T15:00:56.751294+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 1
+2022-06-26T15:00:56.870407+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T15:00:56.908549+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T15:00:56.909549+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T15:00:56.990178+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:00:57.153624+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T15:00:57.992186+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:00:58.548279+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-06-26T15:00:58.552057+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-06-26T15:00:58.561303+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-06-26T15:00:58.781720+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-06-26T15:00:58.783604+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.29'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2022-06-26T15:00:58.993111+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:00:59.997637+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:00.999912+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:02.005436+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:03.011198+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:04.016130+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:05.020536+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:06.027942+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:07.034418+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:08.041117+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:09.048118+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:10.056693+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:11.061816+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:12.069244+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:13.073819+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:14.083335+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:15.091945+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:16.099878+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:17.110691+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:18.118929+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:19.127956+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:20.132912+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:21.140322+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:22.146035+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:23.148615+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:24.149553+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:25.155953+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:26.162313+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:27.169932+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:28.178200+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:29.184728+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:30.194730+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:31.199744+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:32.204891+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:33.205728+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:34.211316+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:35.219206+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:36.228604+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:37.235501+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:38.242698+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:39.250272+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:40.258229+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:41.264000+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:42.270012+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:43.276606+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:44.283061+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:45.288074+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:46.294329+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:47.300114+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:48.306626+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:49.311190+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:50.316683+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:51.322610+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:52.330274+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:53.338080+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:54.346864+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:55.353774+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:56.360807+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:57.368142+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:58.373215+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:01:59.384147+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:00.390060+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:01.396985+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:02.402195+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:03.407691+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:04.415562+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:05.421138+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:06.444777+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:07.453630+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:08.458950+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:09.465555+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:10.478834+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:11.488287+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:12.494065+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:13.501082+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:14.509740+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:15.515776+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:16.522047+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:17.526842+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:18.532562+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:19.538288+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:20.549012+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:21.557729+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:22.563033+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:23.574231+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:24.102756+09:00 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.29).
+2022-06-26T15:02:24.579629+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:25.291720+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+2022-06-26T15:02:25.823052+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T15:02:26.545821+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-06-26T15:02:26.547303+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-06-26T15:02:26.552476+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-06-26T15:02:26.679661+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-06-26T15:02:26.679841+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.29'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2022-06-26T15:02:26.682556+09:00 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.29).
+2022-06-26T15:02:27.431554+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+2022-06-26T15:02:36.183656+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T15:02:36.184658+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 1
+2022-06-26T15:02:36.192355+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T15:02:36.193288+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 1
+2022-06-26T15:02:36.291831+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T15:02:36.297580+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T15:02:36.330726+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T15:02:36.330761+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T15:02:36.332376+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T15:02:36.332927+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T15:02:36.470937+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:36.764978+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T15:02:37.471963+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:37.806055+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-06-26T15:02:37.807466+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-06-26T15:02:37.814353+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-06-26T15:02:38.001621+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-06-26T15:02:38.004051+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.29'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2022-06-26T15:02:38.472960+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:39.474900+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:02:40.271942+09:00 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.29).
+2022-06-26T15:02:40.487532+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+2022-06-26T15:02:40.771032+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T15:02:41.505204+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-06-26T15:02:41.506827+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-06-26T15:02:41.513598+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-06-26T15:02:41.639460+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.29'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2022-06-26T15:02:41.639402+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-06-26T15:02:41.641771+09:00 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.29).
+2022-06-26T15:02:42.384289+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+2022-06-26T15:06:20.102533+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T15:06:20.106378+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 1
+2022-06-26T15:06:20.221711+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T15:06:20.254729+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T15:06:20.255796+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T15:06:20.205545+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T15:06:20.206909+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 1
+2022-06-26T15:06:20.325152+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T15:06:20.438388+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T15:06:20.439752+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T15:06:21.204486+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-06-26T15:06:21.209402+09:00 1 [ERROR] [MY-013183] [InnoDB] Assertion failure: fil0fil.cc:3831 thread 275215062784
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to http://bugs.mysql.com.
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/8.0/en/forcing-innodb-recovery.html
+InnoDB: about forcing recovery.
+06:06:21 UTC - mysqld got signal 6 ;
+Most likely, you have hit a bug, but this error can also be caused by malfunctioning hardware.
+Thread pointer: 0x40138d0fb0
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+stack_bottom = 4014188cd0 thread_stack 0x100000
+/usr/sbin/mysqld(my_print_stacktrace(unsigned char const*, unsigned long)+0x3d) [0x4002116c1d]
+2022-06-26T15:06:21.328859+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ib_logfile0 error: 11
+/usr/sbin/mysqld(print_fatal_signal(int)+0x303) [0x40011a7633]
+2022-06-26T15:06:21.360659+09:00 1 [ERROR] [MY-012894] [InnoDB] Unable to open './ib_logfile0'.
+/usr/sbin/mysqld(my_server_abort()+0x6e) [0x40011a774e]
+/usr/sbin/mysqld(my_abort()+0xa) [0x4002110d7a]
+/usr/sbin/mysqld(ut_dbg_assertion_failed(char const*, char const*, unsigned long)+0x326) [0x40023ebd16]
+/usr/sbin/mysqld(Fil_shard::open_system_tablespaces(unsigned long, unsigned long*)+0x34f) [0x4002553e5f]
+/usr/sbin/mysqld(Fil_system::open_all_system_tablespaces()+0x53) [0x4002553ee3]
+2022-06-26T15:06:21.361927+09:00 1 [ERROR] [MY-012930] [InnoDB] Plugin initialization aborted with error Generic error.
+/usr/sbin/mysqld(srv_start(bool)+0x16b8) [0x40023923a8]
+/usr/sbin/mysqld(+0x21f1af6) [0x40021f1af6]
+/usr/sbin/mysqld(dd::bootstrap::DDSE_dict_init(THD*, dict_init_mode_t, unsigned int)+0x9f) [0x4001ef14bf]
+/usr/sbin/mysqld(dd::upgrade_57::do_pre_checks_and_initialize_dd(THD*)+0x19a) [0x40020eaaaa]
+/usr/sbin/mysqld(+0x12640a6) [0x40012640a6]
+/usr/sbin/mysqld(+0x268ba32) [0x400268ba32]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x7fa3) [0x4005c05fa3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x400647ceff]
+
+Trying to get some variables.
+Some pointers may be invalid and cause the dump to abort.
+Query (0): Connection ID (thread ID): 1
+Status: NOT_KILLED
+
+The manual page at http://dev.mysql.com/doc/mysql/en/crashing.html contains
+information that should help you find out what is causing the crash.
+2022-06-26T15:06:21.385662+09:00 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2022-06-26T15:06:21.389455+09:00 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2022-06-26T15:06:21.391646+09:00 0 [ERROR] [MY-010119] [Server] Aborting
+2022-06-26T15:06:21.423172+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+2022-06-26T15:10:06.712668+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T15:10:06.714003+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 1
+2022-06-26T15:10:06.820931+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T15:10:06.774087+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T15:10:06.775376+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 1
+2022-06-26T15:10:06.853251+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T15:10:06.854904+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T15:10:06.896480+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T15:10:06.940997+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T15:10:06.941904+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T15:10:07.208165+09:00 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ib_logfile0 error: 11
+2022-06-26T15:10:07.212370+09:00 1 [ERROR] [MY-013183] [InnoDB] Assertion failure: fil0fil.cc:7855:success thread 275215062784
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to http://bugs.mysql.com.
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/8.0/en/forcing-innodb-recovery.html
+InnoDB: about forcing recovery.
+06:10:07 UTC - mysqld got signal 6 ;
+Most likely, you have hit a bug, but this error can also be caused by malfunctioning hardware.
+Thread pointer: 0x40138d0fb0
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+stack_bottom = 4014188cd0 thread_stack 0x100000
+/usr/sbin/mysqld(my_print_stacktrace(unsigned char const*, unsigned long)+0x3d) [0x4002116c1d]
+/usr/sbin/mysqld(print_fatal_signal(int)+0x303) [0x40011a7633]
+/usr/sbin/mysqld(my_server_abort()+0x6e) [0x40011a774e]
+/usr/sbin/mysqld(my_abort()+0xa) [0x4002110d7a]
+/usr/sbin/mysqld(ut_dbg_assertion_failed(char const*, char const*, unsigned long)+0x326) [0x40023ebd16]
+/usr/sbin/mysqld(fil_redo_io(IORequest const&, page_id_t const&, page_size_t const&, unsigned long, unsigned long, void*)+0) [0x4002555dc0]
+/usr/sbin/mysqld(fil_redo_io(IORequest const&, page_id_t const&, page_size_t const&, unsigned long, unsigned long, void*)+0x52) [0x4002555e12]
+/usr/sbin/mysqld(log_read_encryption()+0x140) [0x40022bb080]
+/usr/sbin/mysqld(srv_start(bool)+0x1c70) [0x4002392960]
+/usr/sbin/mysqld(+0x21f1af6) [0x40021f1af6]
+/usr/sbin/mysqld(dd::bootstrap::DDSE_dict_init(THD*, dict_init_mode_t, unsigned int)+0x9f) [0x4001ef14bf]
+/usr/sbin/mysqld(dd::upgrade_57::do_pre_checks_and_initialize_dd(THD*)+0x19a) [0x40020eaaaa]
+/usr/sbin/mysqld(+0x12640a6) [0x40012640a6]
+/usr/sbin/mysqld(+0x268ba32) [0x400268ba32]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x7fa3) [0x4005c05fa3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x400647ceff]
+
+Trying to get some variables.
+Some pointers may be invalid and cause the dump to abort.
+Query (0): Connection ID (thread ID): 1
+Status: NOT_KILLED
+
+The manual page at http://dev.mysql.com/doc/mysql/en/crashing.html contains
+information that should help you find out what is causing the crash.
+2022-06-26T15:10:07.512688+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T15:10:08.684594+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-06-26T15:10:08.685894+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-06-26T15:10:08.692480+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-06-26T15:10:08.883894+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-06-26T15:10:08.885110+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.29'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2022-06-26T15:25:03.436472+09:00 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.29).
+2022-06-26T15:25:04.786144+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+2022-06-26T15:30:32.176597+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T15:30:32.176862+09:00 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.29) initializing of server in progress as process 100
+2022-06-26T15:30:32.262942+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T15:30:32.286604+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T15:30:32.289344+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T15:30:32.896842+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T15:30:37.524941+09:00 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2022-06-26T15:30:50.675704+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T15:30:50.675924+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 155
+2022-06-26T15:30:50.791716+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T15:30:50.819913+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T15:30:50.820982+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T15:30:51.100393+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T15:30:52.143650+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-06-26T15:30:52.145293+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-06-26T15:30:52.152835+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-06-26T15:30:52.291464+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2022-06-26T15:30:52.293526+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.29'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2022-06-26T15:31:07.593240+09:00 13 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.29).
+2022-06-26T15:31:08.787259+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+2022-06-26T15:31:10.149517+09:00 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-06-26T15:31:10.150304+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.29) starting as process 1
+2022-06-26T15:31:10.248734+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-06-26T15:31:10.274209+09:00 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-06-26T15:31:10.275204+09:00 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-06-26T15:31:10.498092+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-06-26T15:31:11.283547+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-06-26T15:31:11.285072+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-06-26T15:31:11.290407+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-06-26T15:31:11.415725+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-06-26T15:31:11.416117+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.29'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.

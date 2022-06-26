@@ -14,22 +14,19 @@ services:
     env_file:
       - .env
   db:
-    image: postgres:10
+    platform: linux/x86_64
+    image: mysql:8.0
     volumes:
-      - ./postgresql/data:/var/lib/postgresql/data
+      - db-store:/var/lib/mysql
+      - ./logs:/var/log/mysql
+      - ./docker/mysql/my.cnf:/etc/mysql/conf.d/my.cnf
     ports:
-      - '5432:5432'
+      - '3306:3306'
     environment:
-      - POSTGRES_DB=development
-      - POSTGRES_USER=development
-      - POSTGRES_PASSWORD=GdS)FP6*B7zJ
-      - POSTGRES_ROOT_PASSWORD=yQqDx.4(Cnue
+      - MYSQL_DATABASE=development
+      - MYSQL_USER=development
+      - MYSQL_PASSWORD=GdS)FP6*B7zJ
+      - MYSQL_ROOT_PASSWORD=yQqDx.4(Cnue
       - TZ=Asia/Tokyo
-  redis:
-    image: redis:latest
-    volumes:
-      - ./redis-data:/data
-    ports:
-      - '6379:6379'
 volumes:
-  db:
+  db-store:

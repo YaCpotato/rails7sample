@@ -7,20 +7,19 @@
 |rails|7.0|
 ## System dependencies
 
-## Database setup
+## Initial setup
 
 ```bash
-docker-compose exec web db:create
+docker compose up -d
+docker compose exec db /bin/bash
+# mysql -u root -p
+mysql> grant all on test.* to 'development'@'%';
+docker-compose exec web db:reset
 docker-compose exec web db:migrate
 ```
+enabled at http://localhost:3000, and RSpec
 
-## How to run the test suite
+## RSpec
 ```bash
 docker-compose exec web rspec
 ```
-
-## Services (job queues, cache servers, search engines, etc.)
-
-## Deployment instructions
-
-## ...
